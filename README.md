@@ -8,20 +8,6 @@
 
 This project uses Decision Tree and RandomForestClassifier supervised learning methods to classify the churn behavior of Telco's customer base.  By analyzing past actual churn vs. no churn behavior along with the customer attributes associated with each type of behavior, I developed a model that detected 81% of churning customers.  The developed algorithm, “model”, can be used to predict the future churn vs. no churn behavior with the intent of identifying and preventing customer flight.  The following 5 features were most predictive of churn: Month to Month Contract, Customer Tenure, Fiber Optics Internet Service, and Monthly Charges.
 
-![Models](/images/threemodels.png)
-
-
-The model was developed using actual sales transactions that took place between May 2014 – May 2015 in the County of King in the state of Washington.  The model was developed to help a hypothetical real estate firm called King County Reality increase revenue from seller commissions by addressing two areas the CEO of King County Reality believes were gaps in current business processes:
-
-1. Help agents make more valuable recommendations to potential home sellers on the features in which to focus improving upon in order to maximize sales price.  The model allowed me to advise agents to recommend focusing potential sellers in the following areas: **Above Square Footage, Grade of Home, Improving School District, Inviting Fortune 500 expansion/ addition**.
-
-
-2.  Setting "better" or more informed sales prices.  Beyond simply analyzing the impact features can have on predicting sales prices, my research suggested adding **Assessor Appraisal Value** as a future feature to make more accurate predictions.  This is a feature that had no mentions as a valuable predictor previous to my discovery through final model creation.
-
-Ultimately, the model can be used as a stand along tool to help agents set prices that reflect true market value, as well as an educational tool to improve agent acumen.  This will give King County Reality the sophistication it needs to be more successful as it faces the challenges associated with rapidly rising predicted home prices along with higher levels of inventory in the form of new construction.
-
-
-
 
 ## Business Problem
 
