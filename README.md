@@ -50,19 +50,22 @@ After several iterations the below recall, accuracy, preciscion, and AUC scores 
 As stated above the goal of the project was three fold.  I have outlined and summarized results below
 
 - **1. Top Features Associated with Non Churn vs. Churn:** 
-
 <img src="/images/MostImportantFeatures1.png">
-
 ### Observations:
 Testing
 
 - **2. Current Features/ Services Abilty to Prevent Churn:** 
-
 <img src="/images/MostImportantFeatures1.png">
 ### Observations:
+Testing
+
 - **3. Opportunities for Innovation:** 
 <img src="/images/MostImportantFeatures1.png">
 ### Observations:
+Testing
+
+## Potential Impact on Revenue
+
 
 ## Next Steps
 
