@@ -23,7 +23,7 @@ The data used for this project was provided Telco and published and manage by Ka
 <br/>
 <img src="https://github.com/rgpihlstrom/Project3/blob/main/images/Columns.png" />
 
-## Methods
+## Model Development Methods
 This project uses the Crisp DM methodology to generate and optimize model development.  The intended output of this theoretical business case is focused on helping Telco's CEO, and Marketing leadship do the following:
 -   **1. Identify the features that are most associated with churn.**
 -   **2. Evaluate Telco's current offerings to determine if its current portfolio of products are aiding in the prevention of churn.**
