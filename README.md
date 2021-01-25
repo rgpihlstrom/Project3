@@ -10,8 +10,6 @@ This project uses Decision Tree and RandomForestClassifier supervised learning m
 ## Business Problem
 Customer retention is a serious concern for all companies.  However, within the Telecommunications industry customer churn is of particular importance.  Fierce competition, along with a difficult to differentiate product offering, makes retaining customers, on factors beyond price, almost impossible.  Therefore, the historically thin profits margins of the past are only getting thinner.  In fact, a case study done by the Bain Company on the Telecom industry suggested a 5% increase in customer retention can lead to an increase in profits by 25%-95% percent (https://www.bain.com/client-results/focus-on-customer-engagement-to-improve-retention/).
 
-
-
 <br/>
 
 ### Current Situation: Telcos is losing 27% of its customers and 31% of its revenue to churn.
