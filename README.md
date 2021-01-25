@@ -19,7 +19,7 @@ Customer retention is a serious concern for all companies.  However, within the 
 <br/>
 
 ## Data
-The data used for this project was provided Telco and published and manage by Kaggle and served as a basis for past Kaggle competitions (Telco Customer Churn https://www.kaggle.com/blastchar/telco-customer-churn)  The dataset contains approximately 8k rows and 21 features capturing the purchase, usage, and tenure information on a subset of Telcos customers.  17 of the features are categorical, 3 are continuous, and 1 is ID.  Details are below.
+The data used for this project was provided Telco and published and manage by Kaggle and served as a basis for past Kaggle competitions (Telco Customer Churn https://www.kaggle.com/blastchar/telco-customer-churn)  The dataset contains approximately 8k rows and 21 features capturing the purchase, usage, and tenure information on a subset of Telcos customers.  17 of the features are categorical, 3 are continuous, and 1 is ID.  A list of features contained within the data are below.
 <img src="https://github.com/rgpihlstrom/Project3/blob/main/images/Columns.png" />
 
 ## Methods
