@@ -60,7 +60,7 @@ Testing
 Testing
 
 - **3. Opportunities for Innovation:** 
-<img src="https://github.com/rgpihlstrom/Project3/blob/main/images/CountofEnrolledServices.png" width="600" height="400" />
+<img src="https://github.com/rgpihlstrom/Project3/blob/main/images/Innovation.png" width="600" height="400" />
 ### Observations:
 Testing
 
