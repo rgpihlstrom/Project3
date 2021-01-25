@@ -53,30 +53,31 @@ As stated above the goal of the project was three fold.  I have outlined and sum
 <img src="https://github.com/rgpihlstrom/Project3/blob/main/images/MostImportantFeatures1.png" />
 
 ### Observations:
-- Type of Contract – You can see that 89% of churning customers are in Month-to-Month Contracts
-- Months with Telco – 75% of your churn is occurring within 29 months of become a customer. 
-- Type of Internet Service – Here 66% of churners are using your Fiber Optics program
-- Monthly Bill – Here you can see the median monthly bill churners pay is 25% greater than loyal customers
+- Type of Contract – 89% of churning customers are in Month-to-Month Contracts.
+- Months with Telco – 75% of churn is occurring within 29 months of becoming a customer. 
+- Type of Internet Service – 66% of churners are participating in our Fiber Optics internet service.
+- Monthly Bill – Median monthly bill for churners is 25% higher than non-churners.
 
-Together these factors were identified by the model as most predictive of churn.
+Together these factors were identified by the model as 5 most predictive of churn.
 
 
 - **2. Current Features/ Services Ability to Prevent Churn:** 
 <img src="https://github.com/rgpihlstrom/Project3/blob/main/images/CountofEnrolledServices.png" height="200"/>
 
 ### Observations:
-Here  you can see that 66% of Telco churners are enrolled in 3 or more services, given this number is greater than 50%, I would deem the services are not adquately helping prevvent customer churn.
+- Count of Services Enrolled – 66% of churners are enrolled in 3 or more services.
+Given this number is greater than 50%, I would deem that the services are not adequately helping to prevent customer churn.
 
 
 - **3. Opportunities for Innovation:** 
 <img src="https://github.com/rgpihlstrom/Project3/blob/main/images/Innovation2.png" />
 
 ### Observations:
-No surprises here, my reccomendations focus on working to create innovation that agument the areas identified above in point #1. 
-- Increasing months with telco -  Innovation around loyalty programs to incent longevity
-- Reducing monthly spend -  Innovation around bundling services in an attempt to loyal monthly spend 
-- Type of contract – Obviously, the goal is to reduce spontaneous churn.  If churn candadates are not interested in the 1 year or a 2 year contract, perhaps there is an shorter term contract that can be created.  Perhaps try 6 months or quarterly contracts.  
-- Type of internet service -  Given the big difference in rate of churn across DSL vs. Fiber Optics churners I believe there is something obviously wrong.  I reccomendation is to engage in a competitive and or quality analysis to ensure the quality of the fiber optics lines meeting customer expecations.
+My recommendations for innovation is focused on working to create addition solutions around the 5 most predictive features associated with churn which were noted above in point #1.
+- Increasing Months with Telco - Examine ideas for Innovation around loyalty programs to incent longevity
+- Reducing Monthly Spend -  Examine innovation around bundling services in an attempt to lower monthly spend 
+- Type of contract – Obviously, the here goal is to reduce spontaneous churn.  If churn customers are not interested in the 1 year or a 2 year contract, perhaps there is a shorter term contract that can be created.  Perhaps try 6 months or quarterly contracts.  
+- Type of internet service -  Given the big difference in rate of churn across DSL vs. Fiber Optics churners I believe there is something obviously wrong here.  My recommendation is to engage in a competitive and or quality analysis to ensure the quality of the fiber optics lines meeting customer expectations.
 
 
 ## Potential Impact on Revenue
