@@ -25,15 +25,15 @@ The data used for this project was provided Telco and published and manage by Ka
 
 ## Model Development Methods
 This project uses the Crisp DM methodology to generate and optimize model development.  The intended output of this theoretical business case is focused on helping Telco's CEO, and Marketing leadership do the following:
--   **1. Identify features most associated with churn.**
--   **2. Evaluate Telco's current offerings ability to prevent churn.**
--   **3. Identify areas for potential innovation**
+-   **1. Identify Features Most Associated with churn.**
+-   **2. Evaluate Telco's Current offerings Ability to Prevent Churn.**
+-   **3. Identify Areas for Potential Innovation**
 Furthermore, the model would obviously be used for future purposes to identify and potentially prevent customer churn.
 
 As prescribed by the Crisp DM methodology, model development was very iterative.  I began by doing secondary research around the basic business drivers of the Telecom industry, gaining a better understanding on the prevalence of churn and the costs associated with fleeing customers.  Along with the project requirements noted above the following additional factors were considered during the modeling process:
--   **1. Data imbalance**  Early in the development process it was obvious that I was dealing with an imbalanced set of data (more information/ rows of data on non-churn customer vs. churn costomers).  To ensure optimum identification my processes/ modeling would need to account for this imbalance.  I addressed this gap by first attempting the model using different weights and ultimately decided to do SMOTE(Synthetic Minority Oversampling Technique) to overcome this challenge.
+-   **1. Data Imbalance**  Early in the development process it was obvious that I was dealing with an imbalanced set of data (more information/ rows of data on non-churn customer vs. churn costomers).  To ensure optimum identification my processes/ modeling would need to account for this imbalance.  I addressed this gap by first attempting the model using different weights and ultimately decided to do SMOTE(Synthetic Minority Oversampling Technique) to overcome this challenge.
 
-- **2. Selection of which supervised learning methods to use**  Initially I tried several different types of classifiers, ranging from Logistic Regression, Naive Bayes, Gradient Boost, Ada, and XGBoost.  Ultimately, I decided to use <b><ins>Knn, Decision Trees and Random Forest</ins></b> , as these classifiers are non-parametric and are highly interpretable.  Interpretability, the disproportionate number of categorical features, along with being able to avoid addressing multicollinearity were the most influential factors in selecting which classifiers to select for this project.
+- **2. Selection of Supervised Learning Classifiers**  Initially I tried several different types of classifiers, ranging from Logistic Regression, Naive Bayes, Gradient Boost, Ada, and XGBoost.  Ultimately, I decided to use <b><ins>Knn, Decision Trees and Random Forest</ins></b> , as these classifiers are non-parametric and are highly interpretable.  Interpretability, the disproportionate number of categorical features, along with being able to avoid addressing multicollinearity were the most influential factors in selecting which classifiers to select for this project.
 
 -   **3. Business Drivers: Churn Detection > False Alarms**  Recommendations on model development was based on secondary research along with working knowledge on the disparity between the cost to acquire vs the cost to retain customers.  In this hypothetical scenario, the CEO of Telco has asked me to place a particular focus on detection at the potential expense of unnecessary outreach activities.
 
@@ -51,16 +51,19 @@ As stated above the goal of the project was three fold.  I have outlined and sum
 
 - **1. Top Features Associated with Non Churn vs. Churn:** 
 <img src="https://github.com/rgpihlstrom/Project3/blob/main/images/MostImportantFeatures1.png" />
+
 ### Observations:
 Testing
 
 - **2. Current Features/ Services Ability to Prevent Churn:** 
 <img src="https://github.com/rgpihlstrom/Project3/blob/main/images/CountofEnrolledServices.png" height="200"/>
+
 ### Observations:
 Testing
 
 - **3. Opportunities for Innovation:** 
 <img src="https://github.com/rgpihlstrom/Project3/blob/main/images/Innovation2.png" />
+
 ### Observations:
 Testing
 
