@@ -26,9 +26,9 @@ Customer retention is a serious concern for all companies.  However, within the 
 
 ## Methods
 This project uses the Crisp DM methodology to generate and optimize the final RandomForestClassifier model.  The model developed provides the opportunity for Telco's CEO, and Marketing staff to do the following:
--    **1. Identify the features that are most associated with churn.**
+-   **1. Identify the features that are most associated with churn.**
 -   **2. Evaluate Telco's current offerings to determine if its current portfolio of products are aiding in the prevention of churn.**
--    **3. Act as a source for innovation, in a attempt to improve customer retention.**
+-   **3. Act as a source for innovation, in a attempt to improve customer retention.**
 Altimately, the model will be used for future purposes to identify and potentially prevent customer churn.
 
 As prescribed by the Crisp DM methodology, model development was very iterative.  I began by doing secondary research around the basic business drivers of the Telecom industry, gaining a better understanding on the prevalence of churn and the costs associated with lose.  Early in the development process it was obvious that I was dealing with an imbalanced set of data (more information/ rows of data on non-churn customer vs. churn costomers), which would require me to adjust the data and or algorythms to account for the imbalance.  I addressed this gap by first attempting the model using different wieights and ultimately decided to do a SMOTE(Synthetic,,,,) technique to overcome this challenge.
@@ -41,11 +41,12 @@ Reccomendations on model developmnent was bsaed on secondary Research along with
 
 ## Model Selctions
 During early iterations I tried several different types of classifiers, going from Logistic Regresion, Naive Bayse, Gradient Boost, Ada, and XGBoost.  Ultiimately,  I decided to use Decision Trees and Random Forest as these classifiers are Non-parametric and are hihgly intpretiable.  These were key attributes given my data contained mostly caterogical data, did not require addressing Mulitolinearity, and intended for an audience that would require high interpretibilty.
-
-<img src="/images/ROC.PNG" width="400" height="300" align="left">
-
+<br/>
+<img src="/images/ROC.PNG" width="400" height="300">
+<br/>
 ## Results/ Reccomendaitons
-The final model generated a recall score of 81%, precision of , and ....,  As stated above the goal of the project was three fold.  I have outlined and summarized results below
+The final model generated a recall score of 81%, precision of , and ....,  As stated above the goal of the project was three fold. 
+I have outlined and summarized results below
 
 - **1. The features that had the most influence/ weights include:** 
 <img src="/images/MostImportantFeatures1.png">
