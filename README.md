@@ -8,33 +8,35 @@ This project uses Decision Tree and RandomForestClassifier supervised learning m
 
 
 ## Business Problem
-Customer retention is a serious concern for all companies.  However, within the Telecommunications industry customer churn is of particular importance.  Fierce competition, along with a difficult to differentiate product, makes retaining customer on factors beyond price almost impossible.  Historically thin profits margins are only getting thinner.  In fact, a case study done by the Bain Company on the telecom industry suggested a 5% increase in customer retention can lead to an increase in profits by 25%-95% percent (https://www.bain.com/client-results/focus-on-customer-engagement-to-improve-retention/).
+Customer retention is a serious concern for all companies.  However, within the Telecommunications industry customer churn is of particular importance.  Fierce competition, along with a difficult to differentiate product offering, makes retaining customers, on factors beyond price, almost impossible.  Therefore, the historically thin profits margins of the past are only getting thinner.  In fact, a case study done by the Bain Company on the Telecom industry suggested a 5% increase in customer retention can lead to an increase in profits by 25%-95% percent (https://www.bain.com/client-results/focus-on-customer-engagement-to-improve-retention/).
 
 
 
 <br/>
 
-### Telco is currently losing 27% of its customers and 31% of its revenue to churn.
+### Current Situation: Telcos is losing 27% of its customers and 31% of its revenue to churn.
 
 
 <img src="https://github.com/rgpihlstrom/Project3/blob/main/images/TelcoChurnrates.png" width="600" height="400" />
 <br/>
 
 ## Data
-1.	**Provided Data**: The data used for this project was provided by Kaggle and used as a past source for competition (Telco Customer Churn https://www.kaggle.com/blastchar/telco-customer-churn)  The data set contained approximately 8k rows and 21 features capturing the purchase, usage, and tenure information on a subset of Telcos customers.  17 of the features were categorical, 3 were continuous, and 1 was ID.
+1.	**Provided Data**: The data used for this project was provided by Kaggle and served as a basis for past Kaggle competitions (Telco Customer Churn https://www.kaggle.com/blastchar/telco-customer-churn)  The dataset contains approximately 8k rows and 21 features capturing the purchase, usage, and tenure information on a subset of Telcos customers.  17 of the features are categorical, 3 are continuous, and 1 is ID.
 <img src="https://github.com/rgpihlstrom/Project3/blob/main/images/Columns.png" />
 
 ## Methods
-This project uses the Crisp DM methodology to generate and optimize the final RandomForestClassifier model.  The model developed provides the opportunity for Telco's CEO, and Marketing staff to do the following:
+This project uses the Crisp DM methodology to generate and optimize model development.  The intended output of this theoretical business case is focused on helping Telco's CEO, and Marketing leadship do the following:
 -   **1. Identify the features that are most associated with churn.**
 -   **2. Evaluate Telco's current offerings to determine if its current portfolio of products are aiding in the prevention of churn.**
 -   **3. Act as a source for innovation, in a attempt to improve customer retention.**
-Altimately, the model will be used for future purposes to identify and potentially prevent customer churn.
+Ultimately, the model will be used for future purposes to identify and potentially prevent customer churn.
 
-As prescribed by the Crisp DM methodology, model development was very iterative.  I began by doing secondary research around the basic business drivers of the Telecom industry, gaining a better understanding on the prevalence of churn and the costs associated with lose.  Early in the development process it was obvious that I was dealing with an imbalanced set of data (more information/ rows of data on non-churn customer vs. churn costomers), which would require me to adjust the data and or algorythms to account for the imbalance.  I addressed this gap by first attempting the model using different wieights and ultimately decided to do a SMOTE(Synthetic,,,,) technique to overcome this challenge.
+As prescribed by the Crisp DM methodology, model development was very iterative.  I began by doing secondary research around the basic business drivers of the Telecom industry, gaining a better understanding on the prevalence of churn and the costs associated with fleeing customers.  ALong with the preject requirements noted above the following addtional factors were considered during the modeling process:
+-   **1. Data imbalance**  Early in the development process it was obvious that I was dealing with an imbalanced set of data (more information/ rows of data on non-churn customer vs. churn costomers).  To ensure optimum identification my processes/ modeling would need to account for this imbalance.  I addressed this gap by first attempting the model using different weights and ultimately decided to do a SMOTE(Synthetic,,,,) technique to overcome this challenge.
 
-### Business Driver: Churn Detection > False Alarms
-Reccomendations on model developmnent was bsaed on secondary Research along with working knowledge.  Given the disparity between the cost to acquire vs the cost to retain customers, the CEO of Telco has asked me to place a particular focus on detection at the potential expense of unnecessary outreach activities.
+- **2. Selection of which supervised learning methods to use**  Initiallyt I tried several different types of classifiers, ranging from Logistic Regresion, Naive Bayse, Gradient Boost, Ada, and XGBoost.  Ultiimately,  I decided to use <b><ins>Knn, Decision Trees and Random Forest</ins></b> , as these classifiers are Non-parametric and are hihgly intpretiable.  Inteprabilty, the disportionate number of categorical features, along with being able to avoid addressing mulitolinearity were the ultimate factors in driving classifier selection.  
+
+-   **3. Business Drivers: Churn Detection > False Alarms**  Reccomendations on model developmnent was based on secondary research along with working knowledge on the disparity between the cost to acquire vs the cost to retain customers.  In this hypotheical scenario, the CEO of Telco has asked me to place a particular focus on detection at the potential expense of unnecessary outreach activities.
 
 <img src="https://github.com/rgpihlstrom/Project3/blob/main/images/ChurnOverFalseAlarms.png" width="600" height="400" />
 
