@@ -24,40 +24,41 @@ The data used for this project was provided Telco and published and manage by Ka
 <img src="https://github.com/rgpihlstrom/Project3/blob/main/images/Columns.png" />
 
 ## Model Development Methods
-This project uses the Crisp DM methodology to generate and optimize model development.  The intended output of this theoretical business case is focused on helping Telco's CEO, and Marketing leadship do the following:
--   **1. Identify the features that are most associated with churn.**
--   **2. Evaluate Telco's current offerings to determine if its current portfolio of products are aiding in the prevention of churn.**
--   **3. Act as a source for innovation, in a attempt to improve customer retention.**
-Ultimately, the model will be used for future purposes to identify and potentially prevent customer churn.
+This project uses the Crisp DM methodology to generate and optimize model development.  The intended output of this theoretical business case is focused on helping Telco's CEO, and Marketing leadership do the following:
+-   **1. Identify features most associated with churn.**
+-   **2. Evaluate Telco's current offerings ability to prevent churn.**
+-   **3. Identify areas for potential innovation**
+Furthermore, the model would obviously be used for future purposes to identify and potentially prevent customer churn.
 
-As prescribed by the Crisp DM methodology, model development was very iterative.  I began by doing secondary research around the basic business drivers of the Telecom industry, gaining a better understanding on the prevalence of churn and the costs associated with fleeing customers.  ALong with the preject requirements noted above the following addtional factors were considered during the modeling process:
--   **1. Data imbalance**  Early in the development process it was obvious that I was dealing with an imbalanced set of data (more information/ rows of data on non-churn customer vs. churn costomers).  To ensure optimum identification my processes/ modeling would need to account for this imbalance.  I addressed this gap by first attempting the model using different weights and ultimately decided to do a SMOTE(Synthetic,,,,) technique to overcome this challenge.
+As prescribed by the Crisp DM methodology, model development was very iterative.  I began by doing secondary research around the basic business drivers of the Telecom industry, gaining a better understanding on the prevalence of churn and the costs associated with fleeing customers.  Along with the project requirements noted above the following additional factors were considered during the modeling process:
+-   **1. Data imbalance**  Early in the development process it was obvious that I was dealing with an imbalanced set of data (more information/ rows of data on non-churn customer vs. churn costomers).  To ensure optimum identification my processes/ modeling would need to account for this imbalance.  I addressed this gap by first attempting the model using different weights and ultimately decided to do SMOTE(Synthetic Minority Oversampling Technique) to overcome this challenge.
 
-- **2. Selection of which supervised learning methods to use**  Initiallyt I tried several different types of classifiers, ranging from Logistic Regresion, Naive Bayse, Gradient Boost, Ada, and XGBoost.  Ultiimately,  I decided to use <b><ins>Knn, Decision Trees and Random Forest</ins></b> , as these classifiers are Non-parametric and are hihgly intpretiable.  Inteprabilty, the disportionate number of categorical features, along with being able to avoid addressing mulitolinearity were the ultimate factors in driving classifier selection.  
+- **2. Selection of which supervised learning methods to use**  Initially I tried several different types of classifiers, ranging from Logistic Regression, Naive Bayes, Gradient Boost, Ada, and XGBoost.  Ultimately, I decided to use <b><ins>Knn, Decision Trees and Random Forest</ins></b> , as these classifiers are non-parametric and are highly interpretable.  Interpretability, the disproportionate number of categorical features, along with being able to avoid addressing multicollinearity were the most influential factors in selecting which classifiers to select for this project.
 
--   **3. Business Drivers: Churn Detection > False Alarms**  Reccomendations on model developmnent was based on secondary research along with working knowledge on the disparity between the cost to acquire vs the cost to retain customers.  In this hypotheical scenario, the CEO of Telco has asked me to place a particular focus on detection at the potential expense of unnecessary outreach activities.
+-   **3. Business Drivers: Churn Detection > False Alarms**  Recommendations on model development was based on secondary research along with working knowledge on the disparity between the cost to acquire vs the cost to retain customers.  In this hypothetical scenario, the CEO of Telco has asked me to place a particular focus on detection at the potential expense of unnecessary outreach activities.
 
 <img src="https://github.com/rgpihlstrom/Project3/blob/main/images/ChurnOverFalseAlarms.png" width="600" height="400" />
 
 
-## Model Selctions
-During early iterations I tried several different types of classifiers, going from Logistic Regresion, Naive Bayse, Gradient Boost, Ada, and XGBoost.  Ultiimately,  I decided to use Decision Trees and Random Forest as these classifiers are Non-parametric and are hihgly intpretiable.  These were key attributes given my data contained mostly caterogical data, did not require addressing Mulitolinearity, and intended for an audience that would require high interpretibilty.
+## Model Results
+After several iterations the below recall, accuracy, preciscion, and AUC scores were acheived for the selected classifiers used to predict churn.  Based on these results I decided to move forward with the Random Forest Classifier.
 <br/>
 <img src="/images/ROC.PNG" width="400" height="300">
 <br/>
-## Results/ Reccomendaitons
-The final model generated a recall score of 81%, precision of , and ....,  As stated above the goal of the project was three fold. 
-I have outlined and summarized results below
+
+## Business Results/ Reccomendaitons
+As stated above the goal of the project was three fold.  I have outlined and summarized results below
 
 - **1. The features that had the most influence/ weights include:** 
 <img src="/images/MostImportantFeatures1.png">
+### Observations:
 - **2. Current Features Abilty to Prevent Churn:** 
 
 <img src="/images/MostImportantFeatures1.png">
-
+### Observations:
 - **3. Opportunities for Innovation:** 
 <img src="/images/MostImportantFeatures1.png">
-
+### Observations:
 
 ## Next Steps
 
