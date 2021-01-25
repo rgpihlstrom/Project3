@@ -17,8 +17,7 @@ Customer retention is a serious concern for all companies.  However, within the 
 Telco is currently losing 27% of its customers and 31% of its revenue to churn.
 
 
-<img src="https://github.com/rgpihlstrom/Project3/tree/main/images/TelcoChurnrates.png" width="200" height="400" />
-
+<img src="https://github.com/rgpihlstrom/Project3/blob/main/images/TelcoChurnrates.png" width="200" height="200" />
 
 ![TElcoTitle](/images/TelcoChurnrates.png)
 
