@@ -43,11 +43,8 @@ The final model generated a recall score of 82%, precision of , and ...
 
 **The features that had the most influence/ weights include:** 
 
-<img src="/images/ROC.PNG" width="400" height="300" align="left">
+<img src="/images/MostImportantFeatures1.png">
 
-
-
-  
 
 
 ![A_Players](/images/ChangesInAveargeHome.png)
