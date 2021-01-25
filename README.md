@@ -12,7 +12,7 @@ Customer retention is a serious concern for all companies.  However, within the 
 
 
 Telco is currently losing 27% of its customers and 31% of its revenue to churn.
-![TElcoTitle](/images/TelcoChurnrates.png)
+![TElcoTitle](/images/TelcoChurnrates.png height="200" align="left")
 
 To thwart customer churn, Telco is willing to engage in new outreach programs but it must first identify likely to churn customers.  Given the above research along with working knowledge on the cost to acquire vs retain customers, the CEO of Telco has asked me to place a particular focus on detection at the potential expense of unnecessary outreach activities.
 
