@@ -53,33 +53,47 @@ As stated above the goal of the project was three fold.  I have outlined and sum
 <img src="https://github.com/rgpihlstrom/Project3/blob/main/images/MostImportantFeatures1.png" />
 
 ### Observations:
-Testing
+- Type of Contract – You can see that 89% of churning customers are in Month-to-Month Contracts
+- Months with Telco – 75% of your churn is occurring within 29 months of become a customer. 
+- Type of Internet Service – Here 66% of churners are using your Fiber Optics program
+- Monthly Bill – Here you can see the median monthly bill churners pay is 25% greater than loyal customers
+
+Together these factors were identified by the model as most predictive of churn.
+
 
 - **2. Current Features/ Services Ability to Prevent Churn:** 
 <img src="https://github.com/rgpihlstrom/Project3/blob/main/images/CountofEnrolledServices.png" height="200"/>
 
 ### Observations:
-Testing
+Here  you can see that 66% of Telco churners are enrolled in 3 or more services, given this number is greater than 50%, I would deem the services are not adquately helping prevvent customer churn.
+
 
 - **3. Opportunities for Innovation:** 
 <img src="https://github.com/rgpihlstrom/Project3/blob/main/images/Innovation2.png" />
 
 ### Observations:
-Testing
+No surprises here, my reccomendations focus on working to create innovation that agument the areas identified above in point #1. 
+- Increasing months with telco -  Innovation around loyalty programs to incent longevity
+- Reducing monthly spend -  Innovation around bundling services in an attempt to loyal monthly spend 
+- Type of contract – Obviously, the goal is to reduce spontaneous churn.  If churn candadates are not interested in the 1 year or a 2 year contract, perhaps there is an shorter term contract that can be created.  Perhaps try 6 months or quarterly contracts.  
+- Type of internet service -  Given the big difference in rate of churn across DSL vs. Fiber Optics churners I believe there is something obviously wrong.  I reccomendation is to engage in a competitive and or quality analysis to ensure the quality of the fiber optics lines meeting customer expecations.
+
 
 ## Potential Impact on Revenue
 <img src="https://github.com/rgpihlstrom/Project3/blob/main/images/RevenueRamifications1.png" width="600" height="400"/>
 
 ### Observations:
-Testing
-
+- Today Telco experiences 27% customer churn rate which = 31% lost revenue.
+- With the help of the Model developed for this project, with 81% detection, Telco has an opportunity to reduce this to as little as 5% (for illustration purposes assuming 100% churn reversal), this would result in a saving of 25% in revenue.
 
 ## Next Steps
 
-Further analyses could yield additional insights to help King County Reality increase revenue from sales commissions
-- **Augment the Current Model** Look to add prediction accuracy by studying the homes that showed the largest difference between the predicted and the actual prices of homes sold.  Additionally, looking to add features requiring interactivity could be explored as many factors that would seem to be impactful were eliminated due to VIF.
-- **Creating Additional Models**  The model created was optimized for the most frequent "Common/ Main stream" home prices, quantity of square footage, number of bathroom/ rooms, lot size and several other related features were used to create the model.  The model was optimized for homes that had prices between ~$300k - ~$900k, Bedrooms between 1-4, Lot Size 4,000 – 12,000, Other).  Additional models could be created focused on homes <$200k, >$900k, Waterfront, large Lot Size, etc. 
-- **Deployment** Once we have optimized our models and/or generated enough models to account for the wide variety of homes present in the King County district I would look to automate and deploy the models via a web based interface and make it available to the larger public for impromptu consumption and a potential Marketing tool to generate web traffic and brand awareness.
+
+- **Optimize Current Model - (Look To Reduce Overfitting)** - 
+- **Examine Dectection vs. False Alarm Tradeoffs** - 
+- **Examine Additional Classifiers** - 
+- **Put Model(s) Into Productions** - Once we have optimized our models and/or generated enough models to account for the wide variety of churn data I would look to automate and deploy the models via a web based interface and make it available to the marketing and or customer service teams.
+
 
 ## For More Information
 
