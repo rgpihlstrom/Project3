@@ -1,6 +1,6 @@
 # Predicting Customer Churn - Telco
 
-![Film_Crew](/images/titlePic.png)
+![Film_Crew](/images/TitlePic.png)
 
 
 
