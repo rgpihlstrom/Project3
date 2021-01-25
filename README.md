@@ -49,10 +49,10 @@ After several iterations the below recall, accuracy, preciscion, and AUC scores 
 ## Business Results/ Reccomendaitons
 As stated above the goal of the project was three fold.  I have outlined and summarized results below
 
-- **1. The features that had the most influence/ weights include:** 
+- **1. Top Features Associated with Non Churn vs. Churn:** 
 <img src="/images/MostImportantFeatures1.png">
 ### Observations:
-- **2. Current Features Abilty to Prevent Churn:** 
+- **2. Current Features/ Services Abilty to Prevent Churn:** 
 
 <img src="/images/MostImportantFeatures1.png">
 ### Observations:
