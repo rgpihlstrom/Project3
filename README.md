@@ -38,7 +38,7 @@ As prescribed by the Crisp DM methodology, model development was very iterative.
 
 ### Business Driver: Churn > False Alarms
 
-<img src="https://github.com/rgpihlstrom/Project3/blob/main/images/ChurnOverFalseAlarms.pngg" width="600" height="400" />
+<img src="https://github.com/rgpihlstrom/Project3/blob/main/images/ChurnOverFalseAlarms.png" width="600" height="400" />
 
 
 ## Model Selctions
