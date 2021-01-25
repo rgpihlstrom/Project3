@@ -21,24 +21,23 @@ To thwart customer churn, Telco is willing to engage in new outreach programs bu
 
 
 ## Data
-1.	**Provided Data**: The initial source of data entailed approximately 21k sales transactions that took place between May 2014 – May 2015 in the county of King in the state of Washington.  In addition to providing the actual sales price reached for each home, the provided data also included metadata for each home sold such as: Square Footage of Lot, Square Footage Above, Square Footage of Basement, Grade of Home, Condition of Home, Views Available, Other misc features.
-
-2.	**Scraped Data**: King County Tax Assessor Data:  This data contains several years of past appraisal information used to justify taxes levied per house.  The data from the Tax Assessor Office also include additional physical attributes as well as school district associated with each Parcel ID.  Example: https://blue.kingcounty.com/Assessor/eRealProperty/Dashboard.aspx?ParcelNbr=7338200240
-
-
-3.	**Scraped Data**: King County School District & Rank:  This data is used to get the ranking of the school district associated with each of the homes in the initial dataset discussed above.   Example: https://backgroundchecks.org/top-school-districts-in-washington-2018.html
-
-3.	**Downloaded Data**: I downloaded a variety of other data such as “Hot Zip Code” data, Attraction data, as well as creating custom bins/ groupings of data that were used in supporting model development.  Example: https://www.realtor.com/research/reports/hottest-markets/
+1.	**Provided Data**: The data used for this project was provided by Kaggle and used as a past source for competition (Telco Customer Churn https://www.kaggle.com/blastchar/telco-customer-churn)  The data set contained approximately 8k rows and 21 features capturing the purchase, usage, and tenure information on a subset of Telcos customers.  17 of the features were categorical, 3 were continuous, and 1 was ID.
 
 ## Methods
-This project uses the Crisp DM methodology to generate and optimize the final Multiple Linear Regression model.  The model developed provides the opportunity to use a home’s features (physical and or location based) as well as other information scraped from the assessor’s office including the home appraisal tax data.  The top 6 features, attributes that had the heaviest weights (coefficients), in predicting a home’s price were: Previous Year Appraisals Values, School District Rank, Number of Fortune 500 Companies within 10 miles, Grade Of Home, and Above Square Footage.  In addition to those listed several other features were used in explaining variability in home prices.  
+This project uses the Crisp DM methodology to generate and optimize the final RandomForestClassifier model.  The model developed provides the opportunity for Telco's CEO, and Marketing staff to do the following:
+    1. Identify the features that are most associated with churn
+    2. Evaluate Telco's current offerings to determine if its current portfolio of products are aiding in the prevention of churn
+    3. Act as a source for innovation, in a attempt to improve customer retention.
+Altimately, the model will be used for future purposes to identify and potentially prevent customer churn.
 
-As prescribed by the Crisp DM methodology, model development was very iterative.  I began by doing secondary research around the basic business drivers of the real estate industry, more specifically I researched what features are most attractive to buyers and sellers along with the methods used by real estate agents to set home prices.  Early in the iterative research/ modeling process it was obvious that the model was missing key elements to determine the attractiveness of the home’s location.  I addressed this gap by scraping several sources that would allow me to ascertain the richness of a home’s location (School District & Ranking, Proximity to Attractions & Corporate Headquarters of the 12 fortune 500 companies located in King County, Zip Code Hotness Scores, and other misc information).  Unfortunately, only a handful of these sources were present in the final model as the VIF and correlation tests resulted in many of them being excluded.
+As prescribed by the Crisp DM methodology, model development was very iterative.  I began by doing secondary research around the basic business drivers of the real estate industry, gaining a better understanding on the prevalence of churn in the idustry and the costs associated with lose.  Early in the iterative research/ modeling process it was obvious that I was dealing with an imbalanced set of data (more information on non-churn customer vs. churn costomers), which would require me to adjust the data and or algorythms to account for the imbalance.  I addressed this gap by first attempting the model using different wieights and ultimately decided to do a SMOTE(Synthetic,,,,) technique to overcome this challenge.  
 
-**Adhering to Linear Regression Assumptions**: The assumption requirements associated with using multiple linear regressions to make predictions were followed during model development and certainly added to the number of iterations required to find the optimum combination of data & features.  The assumptions include: linearity, multicollinearity, homoscedastic, and error normality.
+## Model Selctions
+During early iterations I tried several different types of classifiers, going from Logistic Regresion, Naive Bayse, Gradient Boost, Ada, and XGBoost.  Ultiimately,  I decided to use Decision Trees and Random Forest as these classifiers are Non-parametric and are hihgly intpretiable.  These were key attributes given my data contained mostly caterogical data, did not require addressing Mulitolinearity, and intended for an audience that would require high interpretibilty.
+
 
 ## Results
-The final model generated a predictive power (Adj R^2) of .82
+The final model generated a recall score of 82%, precision of , and ...
 
 <img src="/images/Model_Final_Results.png" width="400" height="300" align="left">
 
@@ -64,18 +63,6 @@ The final model generated a predictive power (Adj R^2) of .82
 **Greatest Insight**:  The weight “Assessor Appraisal Value” had, relative to the second most heavy feature “Above Square Footage”, was very surprising and insightful.  The reason this was so insightful was the lack of reference to this variable in all my research in regards to determining a homes sales price.  Research suggested that agents primarily use CMA (Comps) to set pricings and while I did not have a feature related to CMA in my model, I would hypothesize it would be stronger than “Assessor Appraisal Value” in predictive power.  That being said, I hypothesize that "Assessor Appraisal Value" would be the second most heavy feature in a model that contained both "Comp Prices" and "“Assessor Appraisal Value". Given this hypothesis I would recommend it be added as a potential attribute to all home predictive models.  Most research suggests the more common features “Location, Location, Location” as well as “Above Square Footage” as the most helpful. I believe “Assessor Appraisal Value" is currently being overlooked. 
 
 One caveat to this recommendation would be if significant improvements had been made to a home since the last onsite visit of a tax assessor.  Per the King County website, assessors make onsite assessments once every 6 years, this would make older assessments less accurate if significant improvements have been made to a home since the last visit.  The same can be said if significant declines in value had occurred since the last onsite appraisal visit.
-
-## Extra Credit
-Given the greater than 200% difference in weight between the “Assessor Appraisal Value” feature and the next most impactful feature, “Above Square Footage”, I thought it would be interesting to see how well our model would predict "Assessor Appraisal Values”, more specifically, I used the original model and changed the target value  predicted "Homes Sales Price to predicted “Assessor Appraisal Value”.  Interestingly my model predicted/ explained the "Assessor Appraisal Value" with greater strength than "Homes Sales Price".  Keep in mind my second model did not include the “Assessor Appraisal Value” as a feature. See below for a comparison of the same model predicting both "Home Price" and "Assessors Appraisal Value".
-
-
-
-
-
-![NA](/images/Original_vs_Assesor_Value.png)
-
-
-**INSIGHT:** What this suggests is the factors that the assessors use to create appraisals are very similar to those that were provided in our initial dataset and used to build our early models.  The fact that our model explained more variability in "Assessors Appraisal Value" suggests that assessors use more tangible features when creating appraisals vs. intangible features.  This conclusion can be drawn given the heavy presence of tangible features in the dataset.  More specifically, Assessors rely more heavily on the tangible features (Above Sqr Ft, Lot Size, Grade, Etc.) when developing appraisals than buyers and seller use to achieve reaching final prices.  My Hypothesis is buyers and sellers rely on intangibility features more heavily when determining an estimated value of a home.  The greater variance in our original model to predict home sales vs. assesor appraisal value suggests the usage of features that cannot be quantified such as subjective prefrences.   
 
 
 ## Conclusions/ Recommendations
