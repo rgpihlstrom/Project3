@@ -8,25 +8,16 @@ This project uses Decision Tree and RandomForestClassifier supervised learning m
 
 
 ## Business Problem
+Customer retention is a serious concern for all companies.  However, within the Telecommunications industry customer churn is of particular importance.  Fierce competition, along with a difficult to differentiate product, makes retaining customer on factors beyond price almost impossible.  Historically thin profits margins are only getting thinner.  In fact, a case study done by the Bain Company on the telecom industry suggested a 5% increase in customer retention can lead to an increase in profits by 25%-95% percent (https://www.bain.com/client-results/focus-on-customer-engagement-to-improve-retention/).
 
-The King County Realty company is looking to increase its revenue from seller commissions.  Housing market experts are predicting a sharp increase in the prices of homes along with increases in housing inventory due to new construction.  The CEO wants to ensure the firm is prepared to appropriately meet the challenges of this new housing market and believes his firm needs to be more data driven in its approach to helping customers buy and sell homes.  The CEO has hired me to help leverage its current data sources along with finding new data sources to help agents in two primary areas
 
+Telco is currently losing 27% of its customers and 31% of its revenue to churn.
+![TElcoTitle](/images/TelcoChurnrates.png)
 
-Customer retention is a serious concern for all companies.  However, within the Telecommunications industry customer churn is of particular importance.  Fierce competition, along with a difficult to differentiate product, makes retaining customer on factors beyond price almost impossible.  Historically thin profits margins are only getting thinner.  In fact, a case study done by the Bain Company on the telecom industry suggested a 5% increase in customer retention can lead to an increase in profits by 25%-95% percent (https://www.bain.com/client-results/focus-on-customer-engagement-to-improve-retention/).  
-To thwart customer churn, Telco is willing to engage in new outreach programs but it must first identify likely to churn customers.  Given the above research along with working knowledge on the cost to acquire vs retain customers, the CEO of telco has asked me to place a particular focus on detection at the potential expense of unnecessary outreach activities.
+To thwart customer churn, Telco is willing to engage in new outreach programs but it must first identify likely to churn customers.  Given the above research along with working knowledge on the cost to acquire vs retain customers, the CEO of Telco has asked me to place a particular focus on detection at the potential expense of unnecessary outreach activities.
 
 ![TElcoTitle](/images/ChurnOverFalseAlarms.png)
 
-
-Telco is currently losing 27% of its customers and 31% of its revenue to churn
-![TElcoTitle](/images/TelcoChurnrates.png)
-
-1.	Better understand and predict the relationship between home improvement projects/ features and there impact on final sales price 
-2.	Understand if there are other data sources that agents can use to help set smarter prices
-
-Historically prices are set using several sources of data that is presented to agents in the form of a Comparative Market Analysis (CMA) report.  The CEO is wondering if there are other sources of data to help triangulate the prices set for newly listed homes.
-
-Overall, pressure is mounting as home market dynamics, customer expectations, and competition from other boutique reality firms are increasing.
 
 
 ## Data
