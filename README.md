@@ -55,7 +55,7 @@ As stated above the goal of the project was three fold.  I have outlined and sum
 Testing
 
 - **2. Current Features/ Services Ability to Prevent Churn:** 
-<img src="https://github.com/rgpihlstrom/Project3/blob/main/images/CountofEnrolledServices.png" />
+<img src="https://github.com/rgpihlstrom/Project3/blob/main/images/CountofEnrolledServices.png" height="200"/>
 ### Observations:
 Testing
 
