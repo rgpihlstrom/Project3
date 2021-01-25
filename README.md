@@ -1,6 +1,6 @@
 # Predicting Customer Churn - Telco
 
-![Film_Crew](/images/KingCountyRealty.png)
+![Film_Crew](/images/titlePic.png)
 
 
 
