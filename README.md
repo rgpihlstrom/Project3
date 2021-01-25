@@ -11,8 +11,19 @@ This project uses Decision Tree and RandomForestClassifier supervised learning m
 Customer retention is a serious concern for all companies.  However, within the Telecommunications industry customer churn is of particular importance.  Fierce competition, along with a difficult to differentiate product, makes retaining customer on factors beyond price almost impossible.  Historically thin profits margins are only getting thinner.  In fact, a case study done by the Bain Company on the telecom industry suggested a 5% increase in customer retention can lead to an increase in profits by 25%-95% percent (https://www.bain.com/client-results/focus-on-customer-engagement-to-improve-retention/).
 
 
+
+
+
 Telco is currently losing 27% of its customers and 31% of its revenue to churn.
-![TElcoTitle](/images/TelcoChurnrates.png height="200" align="left")
+
+<img src="TelcoChurnrates.png" width="400" height="200" align="left">
+
+
+
+
+
+
+![TElcoTitle](/images/TelcoChurnrates.png)
 
 To thwart customer churn, Telco is willing to engage in new outreach programs but it must first identify likely to churn customers.  Given the above research along with working knowledge on the cost to acquire vs retain customers, the CEO of Telco has asked me to place a particular focus on detection at the potential expense of unnecessary outreach activities.
 
