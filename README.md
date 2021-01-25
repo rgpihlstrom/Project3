@@ -39,19 +39,11 @@ During early iterations I tried several different types of classifiers, going fr
 ## Results
 The final model generated a recall score of 82%, precision of , and ...
 
-<img src="/images/Model_Final_Results.png" width="400" height="300" align="left">
+<img src="/images/ROC.PNG" width="400" height="300" align="left">
 
 **The features that had the most influence/ weights include:** 
 
-    - 1.2 x (Previous Year Appraisals Values)
-
-    - .34 x (Above Square Footage)
-
-    - .22 x (School District Rank)
-
-    - .15 x (Number of Fortune 500 Companies)
-
-    - Other x (See Power Point Presentation or Jupyter Notebook “Models” for details)
+<img src="/images/ROC.PNG" width="400" height="300" align="left">
 
 
 
