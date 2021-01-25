@@ -40,13 +40,13 @@ As prescribed by the Crisp DM methodology, model development was very iterative.
 <img src="https://github.com/rgpihlstrom/Project3/blob/main/images/ChurnOverFalseAlarms.png" width="600" height="400" />
 
 
-## Model Results
-After several iterations the below recall, accuracy, preciscion, and AUC scores were acheived for the selected classifiers used to predict churn.  Based on these results I decided to move forward with the Random Forest Classifier.
+## Model Results (PO ONLY - need to insert real results)
+After several iterations the below recall, accuracy, precision, and AUC scores were achieved for the selected classifiers used to predict churn.  Based on these results I decided to move forward with the Random Forest Classifier.
 <br/>
 <img src="/images/ROC.PNG" width="400" height="300">
 <br/>
 
-## Business Results/ Reccomendaitons
+## Business Results/ Recommendations
 As stated above the goal of the project was three fold.  I have outlined and summarized results below
 
 - **1. Top Features Associated with Non Churn vs. Churn:** 
@@ -54,10 +54,24 @@ As stated above the goal of the project was three fold.  I have outlined and sum
 ### Observations:
 Testing
 
-- **2. Current Features/ Services Abilty to Prevent Churn:** 
+- **2. Current Features/ Services Ability to Prevent Churn:** 
 <img src="/images/MostImportantFeatures1.png">
 ### Observations:
 Testing
+
+- **3. Opportunities for Innovation:** 
+<img src="/images/MostImportantFeatures1.png">
+### Observations:
+Testing
+
+## Potential Impact on Revenue
+
+
+
+
+
+
+
 
 - **3. Opportunities for Innovation:** 
 <img src="/images/MostImportantFeatures1.png">
