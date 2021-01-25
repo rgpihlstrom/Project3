@@ -1,9 +1,8 @@
-# Project3
-# Phase 2 Project
+# Predicting Customer Churn - Telco
 
 ![Film_Crew](/images/KingCountyRealty.png)
 
-# King County Realty - Increasing Revenue From Seller Commissions
+
 
 **Author**:[Russell Pihlstrom](mailto:rgpihlstrom@yahoo.com)
 
