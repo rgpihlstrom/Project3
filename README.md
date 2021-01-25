@@ -18,25 +18,23 @@ Customer retention is a serious concern for all companies.  However, within the 
 
 
 <img src="https://github.com/rgpihlstrom/Project3/blob/main/images/TelcoChurnrates.png" width="600" height="400" />
-
-
-
-To thwart customer churn, Telco is willing to engage in new outreach programs but it must first identify likely to churn customers.  Given the above research along with working knowledge on the cost to acquire vs retain customers, the CEO of Telco has asked me to place a particular focus on detection at the potential expense of unnecessary outreach activities.
-
+<br/>
 
 ## Data
 1.	**Provided Data**: The data used for this project was provided by Kaggle and used as a past source for competition (Telco Customer Churn https://www.kaggle.com/blastchar/telco-customer-churn)  The data set contained approximately 8k rows and 21 features capturing the purchase, usage, and tenure information on a subset of Telcos customers.  17 of the features were categorical, 3 were continuous, and 1 was ID.
 
 ## Methods
 This project uses the Crisp DM methodology to generate and optimize the final RandomForestClassifier model.  The model developed provides the opportunity for Telco's CEO, and Marketing staff to do the following:
-    1. Identify the features that are most associated with churn
-    2. Evaluate Telco's current offerings to determine if its current portfolio of products are aiding in the prevention of churn
-    3. Act as a source for innovation, in a attempt to improve customer retention.
+**1. Physical "Controllable" Features:** 
+    **1. Identify the features that are most associated with churn.**
+    **2. Evaluate Telco's current offerings to determine if its current portfolio of products are aiding in the prevention of churn.**
+    **3. Act as a source for innovation, in a attempt to improve customer retention.**
 Altimately, the model will be used for future purposes to identify and potentially prevent customer churn.
 
 As prescribed by the Crisp DM methodology, model development was very iterative.  I began by doing secondary research around the basic business drivers of the Telecom industry, gaining a better understanding on the prevalence of churn and the costs associated with lose.  Early in the development process it was obvious that I was dealing with an imbalanced set of data (more information/ rows of data on non-churn customer vs. churn costomers), which would require me to adjust the data and or algorythms to account for the imbalance.  I addressed this gap by first attempting the model using different wieights and ultimately decided to do a SMOTE(Synthetic,,,,) technique to overcome this challenge.
 
-### Business Driver: Churn > False Alarms
+### Business Driver: Churn Detection > False Alarms
+To thwart customer churn, Telco is willing to engage in new outreach programs but it must first identify likely to churn customers.  Given the above research along with working knowledge on the cost to acquire vs retain customers, the CEO of Telco has asked me to place a particular focus on detection at the potential expense of unnecessary outreach activities.
 
 <img src="https://github.com/rgpihlstrom/Project3/blob/main/images/ChurnOverFalseAlarms.png" width="600" height="400" />
 
