@@ -6,7 +6,7 @@
 
 ## Overview
 
-This project uses Decision Tree and RandomForestClassifier algorythms to predict the churn behavior of Telco's customers.  By analyzing past actual churn vs. no churn behavior along with the customer attributes associated with each type of behavior I develeped a model that detected and 81% churn dectction rate with a 27% false alarm rate.   for homes sold against the features of each respective home, I developed a predictive model that explains 82% (R^2 = .82) of the variability in price.  This algorithm,“model”, can be used to predict the value each feature contributes to the final sales price of a home along with predicting potential future sales prices for homes where required data to run the model are available.  The following 6 features had the greatest weights within the model: Previous Year Appraisals Values, School District Rank, Number of Fortune 500 Companies within 10 miles, Grade Of Home, and Quantity of Finished Above Square Footage.
+This project uses Decision Tree and RandomForestClassifier supervised learning methods to classify the churn behavior of Telco's customer base.  By analyzing past actual churn vs. no churn behavior along with the customer attributes associated with each type of behavior I developed a model that detected 81% of churning customers.  The developed algorithm, “model”, can be used to predict the future churn vs. no churn behavior with the intent of identifying and preventing customer flight.  The following 5 features were most predictive of churn: Month to Month Contract, Customer Tenure, Fiber Optics Internet Service, and Monthly Charges.
 
 ![Models](/images/threemodels.png)
 
