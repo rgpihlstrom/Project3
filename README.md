@@ -12,7 +12,7 @@ Customer retention is a serious concern for all companies.  However, within the 
 
 <br>
 
-### The Current Situation: Telcos is losing 27% of its customers and 31% of its revenue to churn.
+### The Current Situation: Telcos Losing 27% of Customers, 31% of Revenue to Churn.
 
 
 <img src="https://github.com/rgpihlstrom/Project3/blob/main/images/TelcoChurnrates.png" width="600" height="400" />
