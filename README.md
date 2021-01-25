@@ -12,19 +12,16 @@ Customer retention is a serious concern for all companies.  However, within the 
 
 
 
+<br/>
+
+### Telco is currently losing 27% of its customers and 31% of its revenue to churn.
 
 
-Telco is currently losing 27% of its customers and 31% of its revenue to churn.
+<img src="https://github.com/rgpihlstrom/Project3/blob/main/images/TelcoChurnrates.png" width="600" height="400" />
 
 
-<img src="https://github.com/rgpihlstrom/Project3/blob/main/images/TelcoChurnrates.png"/>
-
-![TElcoTitle](/images/TelcoChurnrates.png)
 
 To thwart customer churn, Telco is willing to engage in new outreach programs but it must first identify likely to churn customers.  Given the above research along with working knowledge on the cost to acquire vs retain customers, the CEO of Telco has asked me to place a particular focus on detection at the potential expense of unnecessary outreach activities.
-
-![TElcoTitle](/images/ChurnOverFalseAlarms.png)
-
 
 
 ## Data
@@ -37,7 +34,12 @@ This project uses the Crisp DM methodology to generate and optimize the final Ra
     3. Act as a source for innovation, in a attempt to improve customer retention.
 Altimately, the model will be used for future purposes to identify and potentially prevent customer churn.
 
-As prescribed by the Crisp DM methodology, model development was very iterative.  I began by doing secondary research around the basic business drivers of the real estate industry, gaining a better understanding on the prevalence of churn in the idustry and the costs associated with lose.  Early in the iterative research/ modeling process it was obvious that I was dealing with an imbalanced set of data (more information on non-churn customer vs. churn costomers), which would require me to adjust the data and or algorythms to account for the imbalance.  I addressed this gap by first attempting the model using different wieights and ultimately decided to do a SMOTE(Synthetic,,,,) technique to overcome this challenge.  
+As prescribed by the Crisp DM methodology, model development was very iterative.  I began by doing secondary research around the basic business drivers of the Telecom industry, gaining a better understanding on the prevalence of churn and the costs associated with lose.  Early in the development process it was obvious that I was dealing with an imbalanced set of data (more information/ rows of data on non-churn customer vs. churn costomers), which would require me to adjust the data and or algorythms to account for the imbalance.  I addressed this gap by first attempting the model using different wieights and ultimately decided to do a SMOTE(Synthetic,,,,) technique to overcome this challenge.
+
+### Business Driver: Churn > False Alarms
+
+<img src="https://github.com/rgpihlstrom/Project3/blob/main/images/ChurnOverFalseAlarms.pngg" width="600" height="400" />
+
 
 ## Model Selctions
 During early iterations I tried several different types of classifiers, going from Logistic Regresion, Naive Bayse, Gradient Boost, Ada, and XGBoost.  Ultiimately,  I decided to use Decision Trees and Random Forest as these classifiers are Non-parametric and are hihgly intpretiable.  These were key attributes given my data contained mostly caterogical data, did not require addressing Mulitolinearity, and intended for an audience that would require high interpretibilty.
