@@ -1,5 +1,6 @@
 # Predicting Customer Churn - Telco
-(/images/TitlePic.png)
+
+![TElcoTitle](/images/TitlePic.png)
 
 
 
