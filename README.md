@@ -74,7 +74,8 @@ Testing
 
 
 - **3. Opportunities for Innovation:** 
-<img src="/images/MostImportantFeatures1.png">
+<img src="https://github.com/rgpihlstrom/Project3/blob/main/images/RevenueRamifications.png" />
+
 ### Observations:
 Testing
 
