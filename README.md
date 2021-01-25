@@ -10,17 +10,17 @@ This project uses Decision Tree and RandomForestClassifier supervised learning m
 ## Business Problem
 Customer retention is a serious concern for all companies.  However, within the Telecommunications industry customer churn is of particular importance.  Fierce competition, along with a difficult to differentiate product offering, makes retaining customers, on factors beyond price, almost impossible.  Therefore, the historically thin profits margins of the past are only getting thinner.  In fact, a case study done by the Bain Company on the Telecom industry suggested a 5% increase in customer retention can lead to an increase in profits by 25%-95% percent (https://www.bain.com/client-results/focus-on-customer-engagement-to-improve-retention/).
 
-<br/>
+<br>
 
 ### The Current Situation: Telcos is losing 27% of its customers and 31% of its revenue to churn.
 
 
 <img src="https://github.com/rgpihlstrom/Project3/blob/main/images/TelcoChurnrates.png" width="600" height="400" />
-<br/>
+<br>
 
 ## Data
 The data used for this project was provided Telco and published and manage by Kaggle and served as a basis for past Kaggle competitions (Telco Customer Churn https://www.kaggle.com/blastchar/telco-customer-churn)  The dataset contains approximately 8k rows and 21 features capturing the purchase, usage, and tenure information on a subset of Telcos customers.  17 of the features are categorical, 3 are continuous, and 1 is ID.  A list of features contained within the data are below.
-<br/>
+<br>
 <img src="https://github.com/rgpihlstrom/Project3/blob/main/images/Columns.png" />
 
 ## Model Development Methods
