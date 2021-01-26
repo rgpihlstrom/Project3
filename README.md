@@ -1,6 +1,6 @@
 **Author**:[Russell Pihlstrom](mailto:rgpihlstrom@yahoo.com)
-![TElcoTitle](/images/TitlePic.png)
 
+<img src="https://github.com/rgpihlstrom/Project3/blob/main/images/TitlePic.png" width="600" height="400" />
 
 ## Overview
 
