@@ -75,10 +75,10 @@ Given this number is greater than 50%, I would deem that the services are not ad
 
 ### Observations:
 My recommendations for innovation is focused on working to create addition solutions around the 5 most predictive features associated with churn which were noted above in point #1.
+- Type of Contract – The goal is to reduce spontaneous churn.  If churn customers are not interested in the 1 year or a 2 year contract, perhaps there is a shorter term contract that can be created to induce trial.  Perhaps try 6 months or quarterly contracts.
 - Increasing Months with Telco - Examine ideas for Innovation around loyalty programs to incent longevity
+- Type of Internet Service -  Given the big difference in rate of churn across DSL vs. Fiber Optics churners, I believe there is something obviously wrong.  My recommendation is to engage in a competitive and or quality analysis to ensure the quality of the fiber optics lines are meeting customer expectations.
 - Reducing Monthly Spend -  Examine innovation around bundling services in an attempt to lower monthly spend 
-- Type of contract – Obviously, the here goal is to reduce spontaneous churn.  If churn customers are not interested in the 1 year or a 2 year contract, perhaps there is a shorter term contract that can be created.  Perhaps try 6 months or quarterly contracts.  
-- Type of internet service -  Given the big difference in rate of churn across DSL vs. Fiber Optics churners, I believe there is something obviously wrong.  My recommendation is to engage in a competitive and or quality analysis to ensure the quality of the fiber optics lines are meeting customer expectations.
 
 
 ## Potential Impact on Revenue
