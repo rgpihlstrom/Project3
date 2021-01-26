@@ -4,11 +4,11 @@
 
 ## Overview: 81% Churn Detection!
 
-This project uses Decision Tree and RandomForestClassifier supervised learning methods to classify the churn behavior of Telco's customer base.  By analyzing past actual churn vs. no churn behavior along with the respective customer attributes associated with each type of behavior, I developed a model that detected <b><ins>81%</ins></b> of Telco's churning customers.  The developed algorithm, “model”, can be used to predict the future churn vs. no churn behavior with the intent of identifying and preventing future customer flight.  The following 5 features were most predictive of churn: <strong>Month to Month Contract, Customer Tenure, Fiber Optics Internet Service, and Monthly Charges.</strong>
+This project uses Decision Tree and RandomForestClassifier supervised learning methods to classify the churn behavior of Telco's customer.  By analyzing past actual churn vs. no churn behavior, along with the respective customer attributes associated with each type of behavior, I developed a model that detected <b><ins>81%</ins></b> of Telco's churning customers.  The developed algorithm, “model”, can be reused to predict the future churn vs. no churn behavior with futute Telco customers.  The following 5 features were most predictive of churn: <strong>Month to Month Contract, Customer Tenure, Fiber Optics Internet Service, and Monthly Charges.</strong>
 
 
 ## Business Problem
-Customer retention is a serious concern for all companies.  However, within the Telecommunications industry customer churn is of particular importance.  Fierce competition, along with a difficult to differentiate product offering, makes retaining customers, on factors beyond price, almost impossible.  Therefore, the historically thin profits margins of the past are only getting thinner.  In fact, a case study done by the Bain Company on the Telecom industry suggested a 5% increase in customer retention can lead to an increase in profits by 25%-95% percent (https://www.bain.com/client-results/focus-on-customer-engagement-to-improve-retention/).
+Customer retention is a serious concern for all companies.  However, within the Telecommunications industry customer churn is of particular importance.  Fierce competition, along with difficult to differentiate product offerings, makes retaining customers on factors beyond price very difficult.  Therefore, the historically thin profits margins of the past are only getting thinner, hence the greater degree of importance on customer retention.  In fact, a case study done by the Bain Company on the Telecom industry suggested a 5% increase in customer retention can lead to an increase in profits by 25%-95% percent (https://www.bain.com/client-results/focus-on-customer-engagement-to-improve-retention/).
 
 <br>
 
@@ -48,18 +48,18 @@ After several iterations the below recall, accuracy, precision, and AUC scores w
 <br/>
 
 ## Business Results/ Recommendations
-As stated above the goal of the project was three fold.  I have outlined and summarized results below
+As stated above the goal of the project was three fold.  I have outlined and summarized the results of each area of interest below:
 
 <h3>1. Top Features Associated with Non Churn vs. Churn:</h3>
 <img src="https://github.com/rgpihlstrom/Project3/blob/main/images/MostImportantFeatures1.png" />
 
 ### Observations:
-- Type of Contract – 89% of churning customers are in Month-to-Month Contracts.
-- Months with Telco – 75% of churn is occurring within 29 months of becoming a customer. 
-- Type of Internet Service – 66% of churners are participating in our Fiber Optics internet service.
+- Type of Contract – 89% of churning customers are in Month-to-Month contracts.
+- Months with Telco – 75% of churn is occurring within 29 months of becoming a Telco customer. 
+- Type of Internet Service – 66% of churners are participating in the Fiber Optics Internet Service.
 - Monthly Bill – Median monthly bill for churners is 25% higher than non-churners.
 
-Together these factors were identified by the model as 5 most predictive of churn.
+Together these factors were identified by the model as 5 most predictive of churn.  To view a list of all the features used to develop this model see appendix in the pdf stored in this directory.  
 
 
 <h2>2. Current Features/ Services Ability to Prevent Churn:</h2>
