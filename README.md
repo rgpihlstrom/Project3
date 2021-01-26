@@ -25,10 +25,11 @@ The data used for this project was provided Telco and published and manage by Ka
 
 ## Model Development Methods
 This project uses the Crisp DM methodology to generate and optimize model development.  The intended output of this theoretical business case is focused on helping Telco's CEO, and Marketing leadership do the following:
--   **1. Identify Features Most Associated with churn.**
+-   **1. Identify Features Most Associated with Churn.**
 -   **2. Evaluate Telco's Current offerings Ability to Prevent Churn.**
--   **3. Identify Areas for Potential Innovation**
-Furthermore, the model would obviously be used for future purposes to identify and potentially prevent customer churn.
+-   **3. Identify Areas for Potential Innovation.**
+<Br>
+Furthermore, the model was developed for the purpose of reuse to identify and potentially prevent future customer churn for Telco.
 
 As prescribed by the Crisp DM methodology, model development was very iterative.  I began by doing secondary research around the basic business drivers of the Telecom industry, gaining a better understanding on the prevalence of churn and the costs associated with fleeing customers.  Along with the project requirements noted above the following additional factors were considered during the modeling process:
 -   **1. Data Imbalance**  Early in the development process it was obvious that I was dealing with an imbalanced set of data (more information/ rows of data on non-churn customer vs. churn costomers).  To ensure optimum identification my processes/ modeling would need to account for this imbalance.  I addressed this gap by first attempting the model using different weights and ultimately decided to do SMOTE(Synthetic Minority Oversampling Technique) to overcome this challenge.
