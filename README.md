@@ -2,7 +2,7 @@
 
 <img src="https://github.com/rgpihlstrom/Project3/blob/main/images/TitlePic.png" width="600" height="400" />
 
-## Overview
+## Overview: 81% Churn Detection!
 
 This project uses Decision Tree and RandomForestClassifier supervised learning methods to classify the churn behavior of Telco's customer base.  By analyzing past actual churn vs. no churn behavior along with the respective customer attributes associated with each type of behavior, I developed a model that detected <b><ins>81%</ins></b> of Telco's churning customers.  The developed algorithm, “model”, can be used to predict the future churn vs. no churn behavior with the intent of identifying and preventing future customer flight.  The following 5 features were most predictive of churn: <strong>Month to Month Contract, Customer Tenure, Fiber Optics Internet Service, and Monthly Charges.</strong>
 
