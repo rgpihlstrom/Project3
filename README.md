@@ -89,8 +89,7 @@ My recommendations for innovation is focused on working to create addition solut
 
 ## Next Steps
 
-
-- **Optimize Current Model - (Look To Reduce Overfitting) ** - As shown above the gap between the accuracy of the model using the training dataset vs. the testing dataset was wider than optimal.  Therefore, additional analysis is required to try to narrow this gap within 1 or 2% difference between accuracy scores.
+- **Optimize Current Model - (Look To Reduce Overfitting)** - As shown above the gap between the accuracy of the model using the training dataset vs. the testing dataset was wider than optimal.  Therefore, additional analysis is required to try to narrow this gap within 1 or 2% difference between accuracy scores.
 - **Examine Detection vs. False Alarm Tradeoffs** - Given the high cost of customer acquisition vs. customer retention some additional analysis may reveal lowering our threshold from 50% to perhaps 40% would capture additional undetected churners.  Capturing additional risk of high-risk flight customers could result in additional improvements in retained revenue. 
 - **Examine Additional Classifiers** - For this project I settled on Random Forest, however, given advances in classifiers such as extreme boost and others, there may be additional opportunities to improve our churn detection rates.
 - **Put Model(s) Into Productions** - Once we have optimized our models and/or generated enough models to account for the wide variety of churn data I would look to automate and deploy the models via a web-based interface and make it available to the marketing and or customer service teams.
