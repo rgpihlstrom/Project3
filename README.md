@@ -77,7 +77,7 @@ My recommendations for innovation is focused on working to create addition solut
 - Increasing Months with Telco - Examine ideas for Innovation around loyalty programs to incent longevity
 - Reducing Monthly Spend -  Examine innovation around bundling services in an attempt to lower monthly spend 
 - Type of contract – Obviously, the here goal is to reduce spontaneous churn.  If churn customers are not interested in the 1 year or a 2 year contract, perhaps there is a shorter term contract that can be created.  Perhaps try 6 months or quarterly contracts.  
-- Type of internet service -  Given the big difference in rate of churn across DSL vs. Fiber Optics churners I believe there is something obviously wrong here.  My recommendation is to engage in a competitive and or quality analysis to ensure the quality of the fiber optics lines meeting customer expectations.
+- Type of internet service -  Given the big difference in rate of churn across DSL vs. Fiber Optics churners, I believe there is something obviously wrong.  My recommendation is to engage in a competitive and or quality analysis to ensure the quality of the fiber optics lines are meeting customer expectations.
 
 
 ## Potential Impact on Revenue
@@ -85,7 +85,7 @@ My recommendations for innovation is focused on working to create addition solut
 
 ### Observations:
 - Today Telco experiences 27% customer churn rate which = 31% lost revenue.
-- With the help of the Model developed for this project, with 81% detection, Telco has an opportunity to reduce this to as little as 5% (for illustration purposes assuming 100% churn reversal), this would result in a saving of 25% in revenue.
+- Given the <b>81% churn detection rate</b>, Telco has an opportunity to reduce its churn to as little as 5% (for illustration purposes assuming 100% churn reversal).  The result of detecting and reversing the 81% of the historical rate of churn would result in a saving of 25% in revenue.
 
 ## Next Steps
 
