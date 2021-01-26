@@ -62,7 +62,7 @@ As stated above the goal of the project was three fold.  I have outlined and sum
 Together these factors were identified by the model as 5 most predictive of churn.
 
 
-- **2. Current Features/ Services Ability to Prevent Churn:** 
+<h2>2. Current Features/ Services Ability to Prevent Churn:</h2>
 <img src="https://github.com/rgpihlstrom/Project3/blob/main/images/CountofEnrolledServices.png" height="200"/>
 
 ### Observations:
@@ -70,7 +70,7 @@ Together these factors were identified by the model as 5 most predictive of chur
 Given this number is greater than 50%, I would deem that the services are not adequately helping to prevent customer churn.
 
 
-- **3. Opportunities for Innovation:** 
+<h2>3. Opportunities for Innovation:</h2>
 <img src="https://github.com/rgpihlstrom/Project3/blob/main/images/Innovation2.png" />
 
 ### Observations:
