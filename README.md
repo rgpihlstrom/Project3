@@ -50,7 +50,7 @@ After several iterations the below recall, accuracy, precision, and AUC scores w
 ## Business Results/ Recommendations
 As stated above the goal of the project was three fold.  I have outlined and summarized results below
 
-- **1. Top Features Associated with Non Churn vs. Churn:** 
+<h3>1. Top Features Associated with Non Churn vs. Churn:</h3>
 <img src="https://github.com/rgpihlstrom/Project3/blob/main/images/MostImportantFeatures1.png" />
 
 ### Observations:
