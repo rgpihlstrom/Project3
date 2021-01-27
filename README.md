@@ -67,7 +67,7 @@ Together these factors were identified by the model as the 4 most predictive of 
 <img src="https://github.com/rgpihlstrom/Project3/blob/main/images/CountofEnrolledServices.png" height="200"/>
 
 ### Observations:
-- Service Count Not In Top 10 – Building from above, service count was not included in the top features related to churn.  However:
+- The feature "Service Count" was not identified as a top predictor of churn – Building from above, "Service Count" a feature engineered into the analysis was not included in the top features related to churn.  However:
 ***66% of churners are enrolled in 3 or more services.***
 Given this number is greater than 50%, I would deem that the services are not adequately helping to prevent customer churn.
 
