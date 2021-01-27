@@ -100,6 +100,6 @@ My recommendations for innovation are focused on working to create additional so
 
 ## For More Information
 
-See the full analysis in the [Jupyter Notebooks](folder) or review our <a href="https://github.com/rgpihlstrom/Phase2Project/blob/main/Presentation.pdf">Presentation</a>.
+See the full analysis in the [Jupyter Notebooks](folder) or review our <a href="https://github.com/rgpihlstrom/Project3/blob/main/Presentation.pdf">Presentation</a>.
 
 For additional info, contact me here: [ Russell Pihlstrom](mailto:rgpihlstrom@yahoo.com)
