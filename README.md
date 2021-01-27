@@ -4,11 +4,11 @@
 
 ## Overview: 85% Churn Detection!
 
-This project uses Decision Tree and RandomForestClassifier supervised learning methods to classify the churn behavior of Telco's customers.  By analyzing past actual churn vs. no churn behavior, along with the respective customer attributes associated with each type of behavior, I developed a model that detected <b><ins>85%</ins></b> of Telco's churning customers.  The developed algorithm/“model” can be reused to identify future potential churn customers.  The following 4 features were most predictive of churn: <strong>Month to Month Contract, Electronic Billing, Customer Tenure, and Fiber Optics Internet Service.</strong>
+This project uses Decision Tree and RandomForestClassifier supervised learning methods to classify the churn behavior of Telco's customers.  By analyzing past actual churn vs. no churn behavior, along with the respective customer attributes associated with each type of behavior, I developed a model that detected <b><ins>85%</ins></b> of Telco's churning customers.  The developed algorithm/“model” can be reused to identify future potential churning customers.  The following 4 features were most predictive of churn: <strong>Month to Month Contract, Electronic Billing, Customer Tenure, and Fiber Optics Internet Service.</strong>
 
 
 ## Business Problem
-Customer retention is a serious concern for all companies.  However, within the Telecommunications industry customer churn is of particular importance.  Fierce competition, along with difficult to differentiate product offerings, makes retaining customers on factors beyond price very difficult.  Therefore, the historically thin profit margins of the past are only getting thinner, hence the greater degree of importance on customer retention.  In fact, a case study done by the Bain Company on the Telecom industry suggested a 5% increase in customer retention can lead to an increase in profits by 25%-95% (https://www.bain.com/client-results/focus-on-customer-engagement-to-improve-retention/).
+Customer retention is a serious concern for all companies.  However, within the Telecommunications industry customer churn is of particular importance.  Fierce competition, along with difficult to differentiate product offerings makes retaining customers, on factors beyond price, very difficult.  Therefore, the historically thin profit margins of the past are only getting thinner, and placing greater than ever importance on customer retention.  In fact, a case study done by the Bain Company on the Telecom industry suggested a 5% increase in customer retention can lead to an increase in profits by 25%-95% (https://www.bain.com/client-results/focus-on-customer-engagement-to-improve-retention/).
 
 <br>
 
@@ -55,18 +55,19 @@ As stated above the goal of the project was three fold.  I have outlined and sum
 
 ### Observations:
 - Type of Contract – 89% of churning customers are in Month-to-Month contracts.
+- Method of Payment/ Billing – 55% of churning customers pay with electronic check.
 - Months with Telco – 75% of churn is occurring within 29 months of becoming a Telco customer. 
 - Type of Internet Service – 66% of churners are participating in the Fiber Optics Internet Service.
-- Monthly Bill – Median monthly bill for churners is 25% higher than non-churners.
 
-Together these factors were identified by the model as the 5 most predictive of churn.  To view a list of all the features used to develop this model see appendix in the pdf stored in this directory.  
+Together these factors were identified by the model as the 4 most predictive of churn.  To view a list of all the features used to develop this model see appendix in the pdf stored in this directory.  
 
 
 <h2>2. Current Features/ Services Ability to Prevent Churn:</h2>
 <img src="https://github.com/rgpihlstrom/Project3/blob/main/images/CountofEnrolledServices.png" height="200"/>
 
 ### Observations:
-- Count of Services Enrolled – 66% of churners are enrolled in 3 or more services.
+- Service Count Not In Top 10 – Buidling from above, service count was not included in the top features related to churn.  However:
+***66% of churners are enrolled in 3 or more services.***
 Given this number is greater than 50%, I would deem that the services are not adequately helping to prevent customer churn.
 
 
@@ -74,11 +75,12 @@ Given this number is greater than 50%, I would deem that the services are not ad
 <img src="https://github.com/rgpihlstrom/Project3/blob/main/images/Innovation3.png" />
 
 ### Observations:
-My recommendations for innovation are focused on working to create additional solutions around the 5 most predictive features associated with churn which were noted above in point #1.
+My recommendations for innovation are focused on working to create additional solutions around the 4 most predictive features associated with churn which were noted above in point #1.
 - Type of Contract – The goal is to reduce spontaneous churn.  If churn customers are not interested in a 1 year or a 2 year contract, perhaps there is a shorter term contract that can be created to induce trial.  Perhaps try 6 months or quarterly contracts.
+- Method of Bill Pay  -  Examine quality and/ or customer experience required to pay bill electronically.  Look to make this process as easy as possible.
 - Increasing Months with Telco - Examine ideas for Innovation around loyalty programs to incent longevity
 - Type of Internet Service -  Given the big difference in rate of churn across DSL vs. Fiber Optics churners, I believe there is something obviously wrong.  My recommendation is to engage in a competitive and or quality analysis to ensure the quality of the fiber optics lines are meeting customer expectations.
-- Reducing Monthly Spend -  Examine innovation around bundling services in an attempt to lower monthly spend 
+
 
 
 ## Potential Impact on Revenue
@@ -86,11 +88,10 @@ My recommendations for innovation are focused on working to create additional so
 
 ### Observations:
 - Today Telco experiences 27% customer churn rate which = 31% lost revenue.
-- Given the <b>81% churn detection rate</b> generated by the model, Telco has an opportunity to reduce its churn to as little as 5% (for illustration purposes assuming 100% churn reversal).  The result of detecting and reversing the 81% of the historical rate of churn would result in a savings of 25% revenue.
+- Given the <b>85% churn detection rate</b> generated by the model, Telco has an opportunity to reduce its churn to as little as 15% (for illustration purposes assuming 100% churn reversal).  The result of detecting and reversing the 27% historical rate of churn would result in a savings of 14% revenue.
 
 ## Next Steps
 
-- **Optimize Current Model - (Look To Reduce Overfitting)** - As shown above, the gap between the accuracy of the model using the training dataset vs. the testing dataset was wider than optimal.  Therefore, additional analysis is required to try to narrow this gap within 1 or 2% difference between accuracy scores.
 - **Examine Detection vs. False Alarm Tradeoffs** - Given the high cost of customer acquisition vs. customer retention some additional analysis may reveal lowering our threshold from 50% to perhaps 40%, which would capture additional undetected churners.
 - **Examine Additional Classifiers** - For this project I settled on Random Forest, however, given advances in classifiers such as extreme boost and others, there may be additional opportunities to improve our churn detection rates.
 - **Put Model(s) Into Productions** - Once we have optimized our models and/or generated enough models to account for the wide variety of churn data, I would look to automate and deploy the models via a web-based interface and make it available to the marketing and or customer service teams.
