@@ -14,6 +14,10 @@ Customer retention is a serious concern for all companies.  However, within the 
 
 ### The Current Situation: Telco is Losing 27% of Customers, 31% of Revenue to Churn.
 
+
+
+<img src="https://github.com/rgpihlstrom/Project3/blob/main/images/TelcoChurnrates.png" width="600" height="400" />
+<br>
 ### Business Questions Driving Model Development.
  The intended output of this theoretical business case is focused on helping Telco's CEO and Marketing leadership do the following:
 -   **1. Identify Features Most Associated with Churn.**
@@ -21,10 +25,7 @@ Customer retention is a serious concern for all companies.  However, within the 
 -   **3. Identify Areas for Potential Innovation.**
 <Br>
 Furthermore, the model was developed for the purpose of reuse to identify and potentially prevent future customer churn for Telco.
-
-<img src="https://github.com/rgpihlstrom/Project3/blob/main/images/TelcoChurnrates.png" width="600" height="400" />
-<br>
-
+ <br>
 ## Data
 The data used for this project was provided by Telco and published and managed by Kaggle and served as a basis for past Kaggle competitions (Telco Customer Churn https://www.kaggle.com/blastchar/telco-customer-churn)  The dataset contains approximately 8k rows and 21 features capturing the purchase, usage, and tenure information on a subset of Telco's customers.  17 of the features are categorical, 3 are continuous, and 1 is ID.  A list of features contained within the data are below.
 <br><br>
