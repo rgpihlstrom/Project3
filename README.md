@@ -82,7 +82,7 @@ My recommendations for innovation are focused on working to create additional so
 
 
 ## Potential Impact on Revenue
-<img src="https://github.com/rgpihlstrom/Project3/blob/main/images/RevenueRamifications1.png" width="600" height="400"/>
+<img src="https://github.com/rgpihlstrom/Project3/blob/main/images/RevenueRamifications2.png" width="600" height="400"/>
 
 ### Observations:
 - Today Telco experiences 27% customer churn rate which = 31% lost revenue.
