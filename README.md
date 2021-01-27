@@ -12,18 +12,16 @@ Customer retention is a serious concern for all companies.  However, within the 
 
 <br>
 
-### The Current Situation: Telco is Losing 27% of Customers, 31% of Revenue to Churn.
-
-
-
+#### The Current Situation: Telco is Losing 27% of Customers, 31% of Revenue to Churn.
 <img src="https://github.com/rgpihlstrom/Project3/blob/main/images/TelcoChurnrates.png" width="600" height="400" />
 <br>
+
 ### Business Questions Driving Model Development.
  The intended output of this theoretical business case is focused on helping Telco's CEO and Marketing leadership do the following:
 -   **1. Identify Features Most Associated with Churn.**
 -   **2. Evaluate Telco's Current offerings Ability to Prevent Churn.**
 -   **3. Identify Areas for Potential Innovation.**
-<Br>
+<br>
 Furthermore, the model was developed for the purpose of reuse to identify and potentially prevent future customer churn for Telco.
  <br>
 ## Data
