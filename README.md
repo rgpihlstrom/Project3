@@ -51,7 +51,7 @@ After several iterations the below recall, accuracy, precision, and AUC scores w
 As stated above the goal of the project was three fold.  I have outlined and summarized the results of each area of interest below:
 
 <h3>1. Top Features Associated with Non Churn vs. Churn:</h3>
-<img src="https://github.com/rgpihlstrom/Project3/blob/main/images/MostImportantFeatures1.png" />
+<img src="https://github.com/rgpihlstrom/Project3/blob/main/images/MostImportantFeatures2.png" />
 
 ### Observations:
 - Type of Contract – 89% of churning customers are in Month-to-Month contracts.
