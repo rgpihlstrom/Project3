@@ -43,7 +43,7 @@ This project uses the Crisp DM methodology to generate and optimize the publishe
 
 
 ## Model Results (85% Detection)
-After several iterations the below recall, accuracy, precision, and AUC scores were achieved for the selected classifiers used to predict churn.  Based on these results I decided to move forward with the Random Forest Classifier.
+After several iterations, the below recall <b><ins>(85%)</ins></b>, accuracy <b><ins>85%</ins></b>, precision <b><ins>47%</ins></b>, and AUC<b><ins>82%</ins></b> scores were achieved for the selected classifier..  These results were acheived using the <b><ins>Random Forest Classifier</ins></b>.  It's important to remember these results were acheived with a focus on recall(detection) over precision (false alarms).
 <br/>
 <img src="https://github.com/rgpihlstrom/Project3/blob/main/images/ModelResults.png" width="600" height="400" />
 <br/>
