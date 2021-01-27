@@ -41,10 +41,10 @@ As prescribed by the Crisp DM methodology, model development was very iterative.
 <img src="https://github.com/rgpihlstrom/Project3/blob/main/images/ChurnOverFalseAlarms.png" width="600" height="300" />
 
 
-## Model Results (PO ONLY - need to insert real results)
+## Model Results (85% Detection)
 After several iterations the below recall, accuracy, precision, and AUC scores were achieved for the selected classifiers used to predict churn.  Based on these results I decided to move forward with the Random Forest Classifier.
 <br/>
-<img src="https://github.com/rgpihlstrom/Project3/blob/main/images/ROC.PNG" width="600" height="400" />
+<img src="https://github.com/rgpihlstrom/Project3/blob/main/images/ModelResults.png" width="600" height="400" />
 <br/>
 
 ## Business Results/ Recommendations
