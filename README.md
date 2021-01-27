@@ -71,7 +71,7 @@ Given this number is greater than 50%, I would deem that the services are not ad
 
 
 <h2>3. Opportunities for Innovation:</h2>
-<img src="https://github.com/rgpihlstrom/Project3/blob/main/images/Innovation2.png" />
+<img src="https://github.com/rgpihlstrom/Project3/blob/main/images/Innovation3.png" />
 
 ### Observations:
 My recommendations for innovation are focused on working to create additional solutions around the 5 most predictive features associated with churn which were noted above in point #1.
