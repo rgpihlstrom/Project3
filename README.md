@@ -14,6 +14,13 @@ Customer retention is a serious concern for all companies.  However, within the 
 
 ### The Current Situation: Telco is Losing 27% of Customers, 31% of Revenue to Churn.
 
+### Business Questions Driving Model Development.
+ The intended output of this theoretical business case is focused on helping Telco's CEO and Marketing leadership do the following:
+-   **1. Identify Features Most Associated with Churn.**
+-   **2. Evaluate Telco's Current offerings Ability to Prevent Churn.**
+-   **3. Identify Areas for Potential Innovation.**
+<Br>
+Furthermore, the model was developed for the purpose of reuse to identify and potentially prevent future customer churn for Telco.
 
 <img src="https://github.com/rgpihlstrom/Project3/blob/main/images/TelcoChurnrates.png" width="600" height="400" />
 <br>
@@ -24,15 +31,8 @@ The data used for this project was provided by Telco and published and managed b
 <img src="https://github.com/rgpihlstrom/Project3/blob/main/images/Columns.png" />
 
 ## Model Development Methods
-This project uses the Crisp DM methodology to generate and optimize model development.  The intended output of this theoretical business case is focused on helping Telco's CEO and Marketing leadership do the following:
--   **1. Identify Features Most Associated with Churn.**
--   **2. Evaluate Telco's Current offerings Ability to Prevent Churn.**
--   **3. Identify Areas for Potential Innovation.**
-<Br>
-Furthermore, the model was developed for the purpose of reuse to identify and potentially prevent future customer churn for Telco.
-
-As prescribed by the Crisp DM methodology, model development was very iterative.  I began by doing secondary research around the basic business drivers of the Telecom industry, gaining a better understanding on the prevalence of churn and the costs associated with fleeing customers.  Along with the project requirements noted above, the following additional factors were considered during the modeling process:
--   **1. Data Imbalance**  Early in the development process it was obvious that I was dealing with an imbalanced set of data (more information/ rows of data on non-churn customer vs. churn customer).  To ensure optimum identification my processes/ modeling would need to account for this imbalance.  I addressed this gap by first attempting the model using different weights and ultimately decided to do SMOTE(Synthetic Minority Oversampling Technique) to overcome this challenge.
+This project uses the Crisp DM methodology to generate and optimize the published model.  Crisp DM requires blending business strategy, availabled data, and modeling techniques best suited to the business drivers.  Model development is and was very iterative.  I began by doing secondary research around the basic business drivers of the Telecom industry, gaining a better understanding on the prevalence of churn and the costs associated with fleeing customers.  Along with the project requirements noted above, the following additional factors were considered during the modeling process:
+-   **1. Data Imbalance**  Early in the development process it was obvious that I was dealing with an imbalanced set of data (more information/ rows of data on non-churn customer vs. churn customer).  To ensure optimum identification my processes/ modeling would need to account for this imbalance.  I addresd this gap by first attempting the model using different weights and ultimately decided to do SMOTE(Synthetic Minority Oversampling Technique) to overcome this challenge.
 
 - **2. Selection of Supervised Learning Classifiers**  Initially I tried several different types of classifiers, ranging from Logistic Regression, Naive Bayes, Gradient Boost, Ada, and XGBoost.  Ultimately, I decided to use <b><ins>Knn, Decision Trees and Random Forest</ins></b> , as these classifiers are non-parametric and are highly interpretable.  Interpretability, the disproportionate number of categorical features, along with being able to avoid addressing multicollinearity were the most influential factors in selecting which classifiers to implement for this project.
 
