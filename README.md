@@ -48,7 +48,7 @@ After several iterations, the below recall <b><ins>(85%)</ins></b>, accuracy <b>
 <img src="https://github.com/rgpihlstrom/Project3/blob/main/images/ModelResults.png" width="600" height="400" />
 <br/>
 - **Visualizing Detection** 
-<img src="https://github.com/rgpihlstrom/Project3/blob/main/images/VisualOfChurnDection.png" width="400" height="300"/>
+<img src="https://github.com/rgpihlstrom/Project3/blob/main/images/VisualOfChurnDection.png" width="500" height="350"/>
 
 <br><br>
 ## Business Results/ Recommendations
