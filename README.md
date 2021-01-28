@@ -67,8 +67,7 @@ Together these factors were identified by the model as the 4 most predictive of 
 <img src="https://github.com/rgpihlstrom/Project3/blob/main/images/CountofEnrolledServices.png" height="200"/>
 
 ### Observations:
-- Service Count Not In Top 10 – Building from above, service count was not included in the top features related to churn.  However:
-***66% of churners are enrolled in 3 or more services.***
+- Building on above, the feature "Service Count" was not identified as a top predictor of churn.  However, ***66% of churners are enrolled in 3 or more services.***
 Given this number is greater than 50%, I would deem that the services are not adequately helping to prevent customer churn.
 
 
@@ -93,13 +92,14 @@ My recommendations for innovation are focused on working to create additional so
 
 ## Next Steps
 
+- **Develop Hard Numbers for the Cost of False Alarms** - In this hypothetical scenario we were not given the cost of falsely reaching out to a loyal customer with a particular outreach/ marketing program.  Once definitive numbers can be defined, we can reexamine our Threshold levels.
+- **Develop Threshold Evaluation Formular** - Once aligned on costs and savings associated with churning customers,  a formula can be created to optimize economics between Detection vs. False Alarm.
 - **Examine Detection vs. False Alarm Tradeoffs** - Given the high cost of customer acquisition vs. customer retention some additional analysis may reveal lowering our threshold from 50% to perhaps 40%, which would capture additional undetected churners.
 - **Examine Additional Classifiers** - For this project I settled on Random Forest, however, given advances in classifiers such as extreme boost and others, there may be additional opportunities to improve our churn detection rates.
 - **Put Model(s) Into Productions** - Once we have optimized our models and/or generated enough models to account for the wide variety of churn data, I would look to automate and deploy the models via a web-based interface and make it available to the marketing and or customer service teams.
 
-
 ## For More Information
 
-See the full analysis in the [Jupyter Notebooks](folder) or review our <a href="https://github.com/rgpihlstrom/Phase2Project/blob/main/Presentation.pdf">Presentation</a>.
+See the full analysis in the [Jupyter Notebooks](folder) or review our <a href="https://github.com/rgpihlstrom/Project3/blob/main/Presentation.pdf">Presentation</a>.
 
 For additional info, contact me here: [ Russell Pihlstrom](mailto:rgpihlstrom@yahoo.com)
