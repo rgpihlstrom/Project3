@@ -52,7 +52,7 @@ After several iterations, the below recall <b><ins>(85%)</ins></b>, accuracy <b>
 <strong> - 34% False Alarms</strong> = Model Predicted Churn , Customer Actually remained Loyal<br/>
 <strong> - 15% Undetected Churn</strong> = Model Predicted Loyal , Customer Actually Churned<br/>
 <strong> - Red Dashed Line</strong> = This is our <b><ins>THRESHHOLD</ins></b> level/ default probability rate, the model uses this % probability to label a customer as churn vs. not churn.<br/>
-<strong>***Key Take Away</strong> = Our model is very good at detecting churn.  As we decrease or increase our threshold we can capture more or less churners.  This in turn results in a higher or lower False Alarm rate.  Per my suggestion in next steps below, we need to develop a cost for False Alarms.  This will allow us to create a profit tradeoff equation, enabling us to set the "right" threshold for the business.
+<strong>***Key Take Away</strong> = Our model is very good at detecting churn.  As we decrease or increase our <b><ins>THRESHHOLD</ins></b> we can capture more or less churners.  This in turn results in a higher or lower False Alarm rate.  Per my suggestion in next steps below, we need to develop a cost for False Alarms.  This will allow us to create a profit tradeoff equation, enabling us to set the "right" threshold for the business.
 
 <br>
 <img src="https://github.com/rgpihlstrom/Project3/blob/main/images/VisualOfChurnDection.png" width="600" height="375"/>
