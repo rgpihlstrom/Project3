@@ -47,11 +47,14 @@ After several iterations, the below recall <b><ins>(85%)</ins></b>, accuracy <b>
 <br/>
 <img src="https://github.com/rgpihlstrom/Project3/blob/main/images/ModelResults.png" width="600" height="400" />
 <br/>
-
--   **Visualizing Results**
--   **3. Identify Areas for Potential Innovation.**
+<h2>2. Results Explained:</h2>
+-   **85% Dection** = Model Predicted Churn , Customer Actually Churned
+-   **34% False Alarms** = Model Predicted Churn , Customer Actually remained Loyal
+-   **15% Undetected Churn** = Model Predicted Loyal , Customer Actually Churned
+-   **Red Dashed Line** = This is our threshold level/ default probablity rate on how our model labels a customer as churn vs. not churn
+ **Key Take Away** = Our model is very accurate, however we can capture more churnes if we lower our threshold.  However, with a lower threshold comes a greater False Alarm rate.  Per my suggestion in next steps, develeping a cost for False Alarms, without this data a default of 50% makes sense given high cost of customer acquisition. 
 <br>
-Furthermore, the model was developed for the purpose of reuse to identify and potentially prevent future customer churn for Telco.
+
  <br>
 <img src="https://github.com/rgpihlstrom/Project3/blob/main/images/VisualOfChurnDection.png" width="600" height="400"/>
 
