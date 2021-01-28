@@ -47,8 +47,13 @@ After several iterations, the below recall <b><ins>(85%)</ins></b>, accuracy <b>
 <br/>
 <img src="https://github.com/rgpihlstrom/Project3/blob/main/images/ModelResults.png" width="600" height="400" />
 <br/>
+
 -   **Visualizing Results**
-<img src="https://github.com/rgpihlstrom/Project3/blob/main/images/VisualOfChurnDection.png" width="550" height="400"/>
+-   **3. Identify Areas for Potential Innovation.**
+<br>
+Furthermore, the model was developed for the purpose of reuse to identify and potentially prevent future customer churn for Telco.
+ <br>
+<img src="https://github.com/rgpihlstrom/Project3/blob/main/images/VisualOfChurnDection.png" width="600" height="400"/>
 
 <br><br>
 ## Business Results/ Recommendations
