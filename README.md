@@ -74,7 +74,7 @@ Together these factors were identified by the model as the 4 most predictive of 
 
 
 <h2>2. Current Features/ Services Ability to Prevent Churn:</h2>
-<img src="https://github.com/rgpihlstrom/Project3/blob/main/images/CountofEnrolledServices1.png" height="200"/>
+<img src="https://github.com/rgpihlstrom/Project3/blob/main/images/CountofEnrolledServices1.png"/>
 
 ### Observations:
 - Building on above, the feature "Service Count" was not identified as a top predictor of churn.  Graphs show equal usage/ participation in services between loyal vs. churn customers.  However, ***66% of churners are enrolled in 3 or more services.***
