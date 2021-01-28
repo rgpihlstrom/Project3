@@ -58,7 +58,7 @@ After several iterations, the below recall <b><ins>(85%)</ins></b>, accuracy <b>
 <img src="https://github.com/rgpihlstrom/Project3/blob/main/images/VisualOfChurnDection.png" width="600" height="375"/>
 
 <br><br>
-## Business Results/ Recommendations
+## Business Results/ Recommendations (Using 50% Threshold)
 As stated above the goal of the project was three fold.  I have outlined and summarized the results of each area of interest below:
 
 <h3>1. Top Features Associated with Non Churn vs. Churn:</h3>
@@ -93,7 +93,7 @@ My recommendations for innovation are focused on working to create additional so
 
 
 
-## Potential Impact on Revenue
+## Potential Impact on Revenue (Assuming 100% Detected Churn Reversal)
 <img src="https://github.com/rgpihlstrom/Project3/blob/main/images/RevenueRamifications2.png" width="600" height="400"/>
 
 ### Observations:
