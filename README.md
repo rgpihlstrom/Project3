@@ -47,7 +47,7 @@ After several iterations, the below recall <b><ins>(85%)</ins></b>, accuracy <b>
 <br/>
 <img src="https://github.com/rgpihlstrom/Project3/blob/main/images/ModelResults.png" width="600" height="400" />
 <br/>
-<h2>2. Results Explained:</h2>
+<h4>Results Explained:</h4>
 -   **85% Dection** = Model Predicted Churn , Customer Actually Churned
 -   **34% False Alarms** = Model Predicted Churn , Customer Actually remained Loyal
 -   **15% Undetected Churn** = Model Predicted Loyal , Customer Actually Churned
